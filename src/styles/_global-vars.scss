@@ -1,0 +1,73 @@
+//fonts
+@font-face {
+    font-family: "Matro";
+    font-style: normal;
+    src: local('Matro'), url('../fonts/ffad_matro-webfont.woff') format('woff');
+    font-display: swap;
+}
+
+/* nunito-regular - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/nunito-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/nunito-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* nunito-700 - latin */
+@font-face {
+    font-family: 'Nunito Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/nunito-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/nunito-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+// Font Families
+$matro: "Matro", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+
+$sans-serif-normal: "Nonito", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+$sans-serif-bold: "Nunito Bold", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+
+
+// Font Families
+$sans-serif: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+// Primary Colors
+$dark-blue: #132634;
+$yellow: #FEE100;
+$white: #FFFFFF;
+
+// Secondary Colors
+$blue: #0D6291;
+$mid-dark-blue: #2C2F38;
+
+// Spacing
+$spaceXS: .5rem;
+$spaceSM: 1.5rem;
+$spaceMD: 3rem;
+$spaceLG: 6rem;
+$spaceXL: 12rem;
+
+// Mixins
+
+@mixin mobile-s {
+    @media screen and (min-width: 320px) {
+        @content;
+    }
+}
+
+@mixin mobile-m {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
+
+@mixin mobile-l {
+    @media screen and (min-width: 425px) {
+        @content;
+    }
+}

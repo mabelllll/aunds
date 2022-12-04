@@ -1,0 +1,40 @@
+.warnings {
+  background-color: #132634;
+
+  .container {
+    background-color: #132634;
+
+    .text-box-sm {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 40rem;
+    }
+
+    .subtitle {
+      color: white;
+    }
+
+    .is-text {
+      opacity: 1;
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
+    p {
+      color: $white;
+    }
+
+    .img {
+      max-width: 6em;
+      max-height: 6em;
+      margin: auto;
+    }
+
+    .label {
+      color: white;
+      font-style: inherit;
+      font-weight: inherit;
+      font-family: sans-serif;
+    }
+  }
+}

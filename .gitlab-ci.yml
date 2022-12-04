@@ -1,0 +1,9 @@
+image: node:14
+
+verify:
+  script:
+    - yarn install
+    - yarn lint
+    - yarn build
+  only:
+    - main
